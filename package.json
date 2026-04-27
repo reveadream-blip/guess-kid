@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build:web": "if ! command -v flutter >/dev/null 2>&1; then git clone https://github.com/flutter/flutter.git --depth 1 -b stable $HOME/flutter; fi && export PATH=\"$PATH:$HOME/flutter/bin\" && flutter config --enable-web && flutter pub get && flutter build web --release"
+    "build:web": "if ! command -v flutter >/dev/null 2>&1; then git clone https://github.com/flutter/flutter.git --depth 1 -b stable $HOME/flutter; fi && export PATH=\"$PATH:$HOME/flutter/bin\" && flutter config --enable-web && flutter pub get && flutter build web --release && rm -rf dist && cp -r build/web dist"
   }
 }

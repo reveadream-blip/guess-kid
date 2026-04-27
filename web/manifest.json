@@ -1,11 +1,11 @@
 {
-    "name": "eveil_enfants",
-    "short_name": "eveil_enfants",
-    "start_url": ".",
+    "name": "Guess Kid",
+    "short_name": "Guess Kid",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Guess Kid - jeu educatif pour enfants.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

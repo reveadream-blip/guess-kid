@@ -15,7 +15,7 @@ class EveilEnfantsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Éveil Enfants',
+      title: 'Guess Kid',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFFFFBC42),
